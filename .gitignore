@@ -1,12 +1,2 @@
 # Don't track class files
 *.class
-
-# # Build output folders
-# target/
-# build/
-# bin/
-
-# # IDE folders
-# *.iml
-# .idea/
-# .vscode/
