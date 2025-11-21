@@ -1,14 +1,19 @@
+import java.util.Scanner;
+
 public class Palidrome {
     public static void main(String[] args) {
-        String str = "madam";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string");
+        String str = sc.nextLine();
         String rev = "";
         for (int i = str.length() - 1; i >= 0; i--) {
             rev = rev + str.charAt(i);
         }
         if (str.equals(rev)) {
-            System.out.println(str + " is a Palindrome");
+            System.out.println(str + " is a Palindrome string");
         } else {
-            System.out.println(str + " is not a Palindrome");
+            System.out.println(str + " is not a Palindrome string");
         }
+        sc.close();
     }
 }
